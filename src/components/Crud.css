@@ -1,0 +1,151 @@
+body > #root > div {
+    height: 100vh;
+}
+
+table tr th {
+    background-color: #e4e4e4;
+    height: 40px;
+    box-shadow: 0px 5px px rgba(0, 0, 0, 15%);
+    font-family: 'Cabin',;
+    font-size: 20px;
+}
+
+table tr td {
+    padding: 10px;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D1D1D1;
+    height: 100%;
+}
+
+.list {
+    width: 90vw;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 20px 30px 20px rgba(0, 0, 0, 20%);
+}
+
+.list .list-title{
+    display: flex;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+}
+
+.list .list-title .title{
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+
+.list table {
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    margin: 5px;
+    transition: all .3s ease;
+    color: #363636;
+    background-color: white;
+    border: 1px solid #363636;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.list table input {
+    outline: none;
+    font-size: 16px;
+    height: 100%;
+    text-align: center;
+    border: none;
+    width: 100%;
+}
+
+#edit:hover {
+    transform: scale(1.2);
+    border: 1px solid #ff8800;
+    cursor: pointer;
+    color: white;
+    background-color: #ff8800;
+}
+
+#delete:hover {
+    transform: scale(1.2);
+    border: 1px solid #ff0000;
+    cursor: pointer;
+    color: white;
+    background-color: #ff0000;
+}
+
+#add:hover {
+    transform: scale(1.2);
+    border: 1px solid #2db31b;
+    cursor: pointer;
+    color: white;
+    background-color: #2db31b;
+}
+
+#update:hover {
+    transform: scale(1.2);
+    border: 1px solid #1b4bb3;
+    cursor: pointer;
+    color: white;
+    background-color: #1b4bb3;
+}
+
+.list .list-footer {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 60px;
+    background-color: #FFF;
+    border-top: 1px solid rgba(0, 0, 0, 20%);
+    border-radius: 0 0 15px 15px;
+}
+
+.list .list-footer .before {
+    text-align: center;
+    color: #D1D1D1;
+    padding: 5px;
+    border: 1px solid #D1D1D1;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.list .list-footer .actual {
+    text-align: center;
+    color: #D1D1D1;
+    padding: 5px;
+    border-top: 1px solid #D1D1D1;
+    border-bottom: 1px solid #D1D1D1;
+}
+
+.list .list-footer .after {
+    text-align: center;
+    color: #D1D1D1;
+    padding: 5px;
+    border: 1px solid #D1D1D1;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.list .list-footer .filler {
+    width: 45px;
+}
+
+.list form {
+    padding-right: 20px;
+}
+
+.list form input {
+    transition: all .5s ease-in;
+    margin-right: 30px;
+    padding: 5px;
+    outline: none;
+    border:1px solid #363636;
+    border-radius: 5px;
+}
